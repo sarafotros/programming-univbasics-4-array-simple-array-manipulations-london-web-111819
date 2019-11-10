@@ -59,5 +59,5 @@ end
 
 dev using_delete_at(famous_robots,2 )
   famous_robots = ["Johnny 5", "R2D2", "Robocop"]
-  famous_robots.delete
+  famous_robots.delete_at(2)
   
