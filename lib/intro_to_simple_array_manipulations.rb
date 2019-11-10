@@ -47,7 +47,8 @@ def using_uniq(haircuts)
   haircuts.uniq 
 end
 
-def using_flatten
+def using_flatten(instruments)
+  instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
   
 
 
