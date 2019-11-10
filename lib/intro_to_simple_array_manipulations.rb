@@ -57,7 +57,7 @@ def using_delete(instructors, "Steven")
  instructors.delete
 end
 
-dev using_delete_at
-
+dev using_delete_at(famous_robots,)
+ famous_robots = ["Johnny 5", "R2D2", "Robocop"]
 
   
